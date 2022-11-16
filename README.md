@@ -1,5 +1,11 @@
 ![Thumbnail](thumbnail.jpg)
 
+# Download the code
+
+```bash
+git clone --recurse-submodules git@github.com:drohmer/ipp-sketching-dynamic-fluid.git
+```
+
 # Compilation
 
 * Code of the scene in directory: sketching_dynamic_fluids/
