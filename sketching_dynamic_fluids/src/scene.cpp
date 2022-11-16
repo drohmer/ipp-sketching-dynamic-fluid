@@ -81,6 +81,7 @@ void scene_structure::mouse_move_event()
 			int k_sketch = sketch_drawable.size() - 1;
 			vec3 const p = unproject(camera_projection, camera_control.camera_model.matrix_frame(), inputs.mouse.position.current);
 			sketch_drawable[k_sketch].push_back(p);
+			sketch_drawable[k_sketch].color = { 0.5f, 0.5f, 1.0f };
 		}
 	}
 	else {

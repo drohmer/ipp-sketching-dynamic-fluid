@@ -2,9 +2,9 @@
 
 # This path should point to the CGP library depending on the current directory
 ## You may need to it in case you move the position of your directory
-PATH_TO_CGP = ../../../library/
+PATH_TO_CGP = ../CGP/library/
 
-TARGET ?= 02_2d_curve #name of the executable
+TARGET ?= sketching_dynamic_fluids #name of the executable
 SRC_DIRS ?= src/ $(PATH_TO_CGP)
 CXX = g++ #Or clang++
 
